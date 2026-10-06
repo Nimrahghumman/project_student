@@ -1,0 +1,164 @@
+[1mdiff --git a/loops.py b/loops.py[m
+[1mindex 5973cb4..7432dcd 100644[m
+[1m--- a/loops.py[m
+[1m+++ b/loops.py[m
+[36m@@ -1,68 +1,68 @@[m
+[31m-# for i in range(5):[m
+[31m-#     print(i)[m
+[31m-[m
+[31m-# bankcode = "200nh"[m
+[31m-# usercode = ""[m
+[31m-[m
+[31m-# while bankcode != usercode:[m
+[31m-#     bankcode = ("enter your bank code")[m
+[31m-#     print("your bank code is incorrect")[m
+[31m-[m
+[31m-# print("your bank code is correct")[m
+[31m-[m
+[31m-# useremail1 ="nimrah@gmail.com"[m
+[31m-# userpassword1 = "123456"[m
+[31m-# useremai = ""[m
+[31m-# userpassword = ""[m
+[31m-# while useremail1 != useremai and userpassword1 != userpassword:[m
+[31m-#     useremail = input("enter your email")[m
+[31m-#     userpassword = input("enter your password")[m
+[31m-#     print("useremail & userpassword is wrong")  [m
+[31m-# print("your email or password is correct") [m
+[31m-# [m
+[31m-# #  [m
+[31m-# email = "ghuman@gmail.com"[m
+[31m-# password = "123456"[m
+[31m-[m
+[31m-# while True:[m
+[31m-#     user_email = input("Enter your email: ")[m
+[31m-#     user_password = input("Enter your password: ")[m
+[31m-[m
+[31m-#     if (email == user_email and password == user_password):[m
+[32m+[m[32mfor i in range(5):[m
+[32m+[m[32m    print(i)[m
+[32m+[m
+[32m+[m[32mbankcode = "200nh"[m
+[32m+[m[32musercode = ""[m
+[32m+[m
+[32m+[m[32mwhile bankcode != usercode:[m
+[32m+[m[32m    bankcode = ("enter your bank code")[m
+[32m+[m[32m    print("your bank code is incorrect")[m
+[32m+[m
+[32m+[m[32mprint("your bank code is correct")[m
+[32m+[m
+[32m+[m[32museremail1 ="nimrah@gmail.com"[m
+[32m+[m[32muserpassword1 = "123456"[m
+[32m+[m[32museremai = ""[m
+[32m+[m[32muserpassword = ""[m
+[32m+[m[32mwhile useremail1 != useremai and userpassword1 != userpassword:[m
+[32m+[m[32m    useremail = input("enter your email")[m
+[32m+[m[32m    userpassword = input("enter your password")[m
+[32m+[m[32m    print("useremail & userpassword is wrong")[m[41m  [m
+[32m+[m[32mprint("your email or password is correct")[m[41m [m
+[32m+[m
+[32m+[m[32m#[m[41m  [m
+[32m+[m[32memail = "ghuman@gmail.com"[m
+[32m+[m[32mpassword = "123456"[m
+[32m+[m
+[32m+[m[32mwhile True:[m
+[32m+[m[32m    user_email = input("Enter your email: ")[m
+[32m+[m[32m    user_password = input("Enter your password: ")[m
+[32m+[m
+[32m+[m[32m    if (email == user_email and password == user_password):[m
+        [m
+[31m-#         break[m
+[31m-#     print("Invalid credentials, try again.\n")[m
+[32m+[m[32m        break[m
+[32m+[m[32m    print("Invalid credentials, try again.\n")[m
+ [m
+[31m-# print("login successfull")[m
+[32m+[m[32mprint("login successfull")[m
+ [m
+[31m-# # set work[m
+[31m-# a = {1,2,3,4,5,6,7,8,9}[m
+[32m+[m[32m# set work[m
+[32m+[m[32ma = {1,2,3,4,5,6,7,8,9}[m
+ [m
+[31m-# a.update([30, "color","red"])[m
+[32m+[m[32ma.update([30, "color","red"])[m
+ [m
+[31m-# print(a)[m
+[32m+[m[32mprint(a)[m
+ [m
+[31m-# data = {10,20,30,40,50,60}[m
+[31m-# # data.remove(20)[m
+[31m-# # data.discard(100)[m
+[31m-# # data.update([200])[m
+[31m-# data.add(100)[m
+[32m+[m[32mdata = {10,20,30,40,50,60}[m
+[32m+[m[32m# data.remove(20)[m
+[32m+[m[32m# data.discard(100)[m
+[32m+[m[32m# data.update([200])[m
+[32m+[m[32mdata.add(100)[m
+ [m
+[31m-# print(data)[m
+[32m+[m[32mprint(data)[m
+ [m
+[31m-# student = {"ali","nimra","sara","iqra","hamza","neha", "samra"}[m
+[31m-# a,b,*c, = student[m
+[31m-# print(b)[m
+[31m-# print("hello" in student)[m
+[31m-# print(student)[m
+[32m+[m[32mstudent = {"ali","nimra","sara","iqra","hamza","neha", "samra"}[m
+[32m+[m[32ma,b,*c, = student[m
+[32m+[m[32mprint(b)[m
+[32m+[m[32mprint("hello" in student)[m
+[32m+[m[32mprint(student)[m
+ [m
+ [m
+ [m
+[31m-# # ref and copy[m
+[31m-# a = [1,2,3,4][m
+[31m-# b = a.copy()[m
+[31m-# b.append(5)[m
+[31m-# print(a)[m
+[32m+[m[32m# ref and copy[m
+[32m+[m[32ma = [1,2,3,4][m
+[32m+[m[32mb = a.copy()[m
+[32m+[m[32mb.append(5)[m
+[32m+[m[32mprint(a)[m
+ [m
+ [m
+ [m
+[36m@@ -70,4 +70,33 @@[m [mdef user(id,Name,age, ):[m
+    print(f"{id} hello {Name} your age {age}") [m
+ [m
+ user(1,"nimra",22)[m
+[31m-user(2,"sara", 22)[m
+\ No newline at end of file[m
+[32m+[m[32muser(2,"sara", 22)[m
+[32m+[m[32ma = 10[m
+[32m+[m[32mdef data():[m
+[32m+[m[32m    print(a)[m
+[32m+[m[32mdata()[m
+[32m+[m[32m# tuple imutable***********[m
+[32m+[m[32mdata = (500)[m
+[32m+[m[32mprint(id(data))[m
+[32m+[m[32mmarks = (500)[m
+[32m+[m[32mprint(id(marks))[m
+[32m+[m
+[32m+[m[32m# tow varebal same id********** arange 500[m
+[32m+[m[32m# ****** mutablt data list,setor tapul********[m
+[32m+[m
+[32m+[m[32m# # set work[m[41m [m
+[32m+[m[32ma = {500}[m
+[32m+[m[32mprint(id(a))[m
+[32m+[m
+[32m+[m
+[32m+[m[32mb = {500}[m
+[32m+[m[32mprint(id(b))[m
+[32m+[m
+[32m+[m
+[32m+[m[32mclass car:[m
+[32m+[m[32m    def __ini__(self,brand, model):[m
+[32m+[m[32m        self.brand = brand[m
+[32m+[m[32m        self.model = model[m
+[32m+[m
+[32m+[m[32mnewcar = car ("tesla","xr")[m
+[32m+[m[32mprint(newcar.brand)[m[41m        [m
+\ No newline at end of file[m
